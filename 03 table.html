@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Span - Table rows and colns</title>
+        <style>
+            table{
+                width: 600px;
+                background-color: aqua;
+                }
+            table, td, th{
+                text-align: center;
+                border-collapse: collapse ;
+                border: 1px solid black;
+            
+            }
+            td, th{
+                padding: 16px;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <caption>Table</caption>
+            <tr>
+                <th rowspan="5">Revision</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thur</th>
+                <th>Fri</th>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>art</td>
+                <td>eng</td>
+                <td>Sports</td>
+            </tr>
+            <tr>
+                <td>art</td>
+                <td>eng</td>
+                <td>math</td>
+                <td>science</td>
+                <td>sports</td>
+            </tr>
+            <tr>
+                <td>science</td>
+                <td>math</td>
+                <td>art</td>
+                <td>english</td>
+                <td>sport</td>
+            </tr>
+            <tr>
+                <td>math</td>
+                <td colspan="2">science</td>
+                <td>eng</td>
+                <td>art</td>
+            </tr>
+        </table>
+    </body>
+</html>
